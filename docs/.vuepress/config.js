@@ -36,7 +36,7 @@ module.exports = {
         children: [
           {
             text: "mini-ui",
-            link: "/pages/mini-ui/mini-ui.md",
+            link: "/pages/mini-ui/",
           },
         ],
       },

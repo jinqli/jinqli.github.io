@@ -22,27 +22,35 @@ module.exports = {
         link: "/",
       },
       {
-        text: "组件",
+        text: "环境",
         children: [
           {
-            text: "uniapp-vue2",
-            link: "/pages/component.md",
+            text: "android",
+            link: "/environment/Android模拟器.md",
           },
         ],
       },
-      // NavbarGroup
+      {
+        text: "代码",
+        children: [
+          {
+            text: "JavaScript",
+            link: "/code/JavaScript/",
+          },
+        ],
+      },
       {
         text: "文档",
         children: [
           {
             text: "mini-ui",
-            link: "/pages/mini-ui/",
+            link: "/ui/mini-ui/",
           },
         ],
       },
       {
         text: "关于",
-        link: "/pages/about.md",
+        link: "/about.md",
       },
       // 字符串 - 页面文件路径
       // "/bar/README.md",

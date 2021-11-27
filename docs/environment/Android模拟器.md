@@ -17,7 +17,7 @@
 ### `sdk-manage`
 
 1. 安装需要用到的package（google pay一般用不到）
-2. 其他
+2. 如果安装的android sdk platform 29、我把sdk build-tools对应的版本全部安装了的（后面启动模拟器时就成功了）
 
 ### `avd-manage`
 
@@ -29,6 +29,17 @@
 1. 使用`vscode`安装插件
 2. 并在`main`入口处运行项目
 3. 如果`debug`时出现`code 1`时记得就该模拟器的`Storage`
+
+### `sdkmanager-cmd-line`
+
+```sh
+./sdkmanager --list
+./sdkmanager --update
+./sdkmanager "platform-tools;android-29"
+./sdkmanager --install ""  # 会出现报错-猜测是版本问题或者网络环境问题（大天朝）
+```
+
+
 
 ### 错误
 

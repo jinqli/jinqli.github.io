@@ -35,7 +35,7 @@
 ```sh
 ./sdkmanager --list
 ./sdkmanager --update
-./sdkmanager "platform-tools;android-29"
+./sdkmanager "cmdline-tools;latest" # flutter doctor 时可能会遇到 根据提示 不要带--install执行就ok
 ./sdkmanager --install ""  # 会出现报错-猜测是版本问题或者网络环境问题（大天朝）
 ```
 

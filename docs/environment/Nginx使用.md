@@ -30,7 +30,7 @@ http { # http块
 	# 默认文件类型
 	default_type application/octet-stream;
 	# 上传文件大小限制
-	client_header_buffers 10M;
+	# client_header_buffers 10M;
 	# 开始高效文件传输模式
 	sendfile on;
 	keepalive_timeout 65;
@@ -41,13 +41,13 @@ http { # http块
 		# 监听端口
 		listen 80; 
 		# 域名可以有多个、用逗号隔开
-        server_name location || domain_name;
+        server_name jinqli.com, fleeting-time.com;
         # HTTP 自动跳转 HTTPS
-        rewrite ^(.*) https://www.<domain_name>.com; 
+        rewrite ^(.*) https://www.jinqli.com; 
         # 拒绝的ip
-        deny <ip_address>;
+        # deny <ip_address>;
         # 允许的ip
-        allow <ip_address>;
+        # allow <ip_address>;
         
 		location / { # location块
 			# 项目文件路径
@@ -86,7 +86,7 @@ http { # http块
         #请按照以下套件配置，配置加密套件，写法遵循 openssl 标准。
         ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:HIGH:!aNULL:!MD5:!RC4:!DHE; 
         ssl_prefer_server_ciphers on;
-		loaction / {
+		location / {
 			# 项目文件路径
 			root html/MuZiLi;
 			index index.html index.htm;
@@ -98,4 +98,8 @@ http { # http块
 
 # 全局块
 ```
+
+
+
+# `bug`
 

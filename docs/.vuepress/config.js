@@ -28,6 +28,10 @@ module.exports = {
             text: "android",
             link: "/environment/Android模拟器.md",
           },
+          {
+            text: "nginx.conf",
+            link: "/environment/Nginx使用.md",
+          },
         ],
       },
       {
@@ -36,6 +40,15 @@ module.exports = {
           {
             text: "JavaScript",
             link: "/code/JavaScript/",
+          },
+        ],
+      },
+      {
+        text: "Kali",
+        children: [
+          {
+            text: "U盘启动",
+            link: "/kali/把kali装进U盘.md/",
           },
         ],
       },

@@ -1,6 +1,12 @@
+---
+title: webpack5+vue3
+date: 2024-11-13
+tag:
+  - css
+  - web
+---
+
 # webpack5+vue3
-
-
 
 ## 1. webpack
 
@@ -16,6 +22,3 @@
    ```shell
    yarn add -D webpack webpack-cli
    ```
-
-   
-

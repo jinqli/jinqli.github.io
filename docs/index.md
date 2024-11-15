@@ -15,8 +15,8 @@ isNoBackBtn: true
       class="header-anchor"
       :href="`#${post.title}`"
       :aria-label="`Permalink to &quot;${post.title}&quot;`"
-      >​</a
-    >
+      >
+		</a>
     <div class="post-date hollow-text">{{ post.date.string }}</div>
   </h2>
   <t-tag
@@ -24,8 +24,9 @@ isNoBackBtn: true
     class="mr-2"
     variant="outline"
     shape="round"
-    >{{ tag }}</t-tag
-  >
+    >
+		{{ tag }}
+	</t-tag>
   <div v-if="post.excerpt" v-html="post.excerpt"></div>
 </template>
 

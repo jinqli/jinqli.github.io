@@ -11,9 +11,9 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: "博客", link: "/" },
+      { text: "文章", link: "/" },
       { text: "归档", link: "/archive", activeMatch: "/archive" },
-      { text: "笔记", link: "/notes/", activeMatch: "/notes/" },
+      // { text: "笔记", link: "/notes/", activeMatch: "/notes/" },
       { text: "关于", link: "/about", activeMatch: "/about" },
       { text: "赞助", link: "/support-me", activeMatch: "/support-me" },
     ],
